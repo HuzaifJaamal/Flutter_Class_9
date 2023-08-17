@@ -8,11 +8,11 @@ void main() {
   //  Null check Marks "?","!"
   // var abc;
   // print(abc);
-  // sumOfTwoNumbers();
+  print(sumOfTwoNumbers(1, 2));
 }
 
 // Arrow Function (It should be use in small line of code)
-// sumOfTwoNumbers(num1, num2) => num1 + num2;
+sumOfTwoNumbers(num1, num2) => num1 + num2;
 
 // Parameter Function
 // sumOfTwoNumbers(num1, num2) {
@@ -23,7 +23,7 @@ void main() {
 // When give the parameter in between "{}", so it becomes the optional value.
 // sumOfTwoNumbers({String? name}) {
   // "??" it give the value of double qoutation in output when the value becomes "Null able".
-  //  "??" in that not nacesstory the data comne.
+  //  "??" in that not nacesstory the data come.
   // var abc = name ?? "Name not assign";
   // "!" in that the value becames ncesstory to come in that case
   // print(name!);
